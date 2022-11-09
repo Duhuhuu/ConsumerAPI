@@ -1,0 +1,29 @@
+.container{
+    background-color: blueviolet;
+    
+}
+.poke{
+   
+    margin-top: 500px;
+    margin-bottom: 10%;
+    width: 250px;
+    height: 250px;
+   
+   /* background-image: url("./assets/pokeImgs/pokemon-5.svg"); */
+}
+.btn{
+    background-image: url("./assets/pokeImgs/pokemon-5.svg");
+    /* content: url("./assets/pokeImgs/pokemon-5.svg"); */
+    margin: 5%;
+    margin-bottom: 10%;
+    width: 200px;
+    height: 200px;
+    /* content: url("./assets/pokeImgs/pokemon-5.svg"); */
+} 
+
+/* .btn{
+    margin: 5%;
+    margin-bottom: 10%;
+    width: 200px;
+    height: 200px;
+} */
