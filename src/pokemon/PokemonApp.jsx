@@ -6,7 +6,7 @@ export const PokemonApp = () => {
     const dispatch = useDispatch();
     const { isLoading, pokemons = [], page } = useSelector(state => state.pokemons)
   
-    
+    console.log(pokemons)
   
     useEffect(() => {
       dispatch( getPokemons() );
@@ -15,7 +15,7 @@ export const PokemonApp = () => {
 
     // Destructuro el name, del arreglo de pokemons, donde estan almacenados los datos del json de la api key de pokemons
     const [name] = pokemons;
-    console.log(name)
+    console.log(pokemons)
     return (
       <>
           <h1>PokemonApp</h1>

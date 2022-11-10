@@ -1,5 +1,5 @@
 import { Navigate, Route, Routes } from "react-router-dom"
-import { PokemonHome } from "./pokemon"
+import { PokemonApp, PokemonHome } from "./pokemon"
 
 
 export const ConsumerApp = () => {
@@ -8,6 +8,7 @@ export const ConsumerApp = () => {
  
     {/* //  ( status === 'authenticated')  */}
         <Route path="/*" element={ <PokemonHome/>  } />
+        <Route path="/pokelist" element={ <PokemonApp/>  } />
         {/* <Route path="/auth/*" element={ <AuthRoutes/>  } /> */}
     
      <Route path="/*" element= { <Navigate to='/' /> } />
